@@ -8,13 +8,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@RequestMapping("/")
+
 public class ShopApplication {
 
-	public static void main(String[] args) {SpringApplication.run(ShopApplication.class, args);}
-	@GetMapping("hello")
-	public static String helloWorld(){
-		System.out.println("Hello world");
-		return "Hello world";
+	public static void main(String[] args) { SpringApplication.run(ShopApplication.class, args);
+
+
+
+
+
 	}
+
 }
